@@ -20,6 +20,9 @@
 
 import Route from '@ioc:Adonis/Core/Route'
 
+import "reflect-metadata";
+
+
 Route.get('/', async () => {
   return 'practice practice lalalala';
 })
